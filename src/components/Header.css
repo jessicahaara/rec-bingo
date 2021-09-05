@@ -1,0 +1,18 @@
+.header {
+	width: 95vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.rec {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ transform: rotate(-2deg);
+}
+
+.rec h1 {
+	margin: -8px;
+	font-weight: 500;
+}

@@ -1,0 +1,21 @@
+.bingo-card {
+	width: 95vw;
+	height: 95vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	border: 2px solid white;
+}
+
+.bingo-square {
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bingo-square p {
+	font-size: 10px;
+	margin: 0;
+	text-transform: uppercase;
+}
