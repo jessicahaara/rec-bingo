@@ -4,11 +4,39 @@
 
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.dark {
+  background-color: #282c34;
+  color: beige;
+}
+
+.light {
+  background-color: beige;
+  color: #282c34;
+}
+
+.purple {
+  background-color: #CBC3E3;
+  color: #282c34;
+}
+
+.green {
+  background-color: #006600;
+  color: beige;
+}
+
+.yellow {
+  background-color: #fff192;
+  color: #282c34;
+}
+
+.blue {
+  background-color: #1e3f5a;
+  color: beige;
 }

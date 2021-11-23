@@ -1,5 +1,6 @@
 .header {
 	width: 95vw;
+	max-width: 75vh;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -10,9 +11,39 @@
  flex-direction: column;
  align-items: flex-end;
  transform: rotate(-2deg);
+ animation: header-animation 0.8s;
 }
 
 .rec h1 {
 	margin: -8px;
 	font-weight: 500;
+}
+
+.header-bingo {
+	animation: header-bingo-animation 1.2s;
+}
+
+
+@keyframes header-animation {
+	0% {
+		margin-top: -100px;
+	}
+
+	100% {
+		margin-top: 0;
+	}
+}
+
+@keyframes header-bingo-animation {
+	0% {
+		opacity: 0;
+	}
+
+	80% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }

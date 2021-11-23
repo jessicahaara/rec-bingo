@@ -1,0 +1,43 @@
+.settings {
+	width: 95vw;
+	max-width: 75vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 5px;
+}
+
+.cog {
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	font-weight: normal;
+	margin: 0;
+}
+
+.settings .close {
+	font-size: 25px;
+	cursor: pointer;
+	margin-top: -8px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.settings-section {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	animation: settings-animation 0.5s;
+}
+
+@keyframes settings-animation {
+	0% {
+		margin-top: 40px;
+	}
+
+	100% {
+		margin-top: 0;
+	}
+}
